@@ -21,7 +21,7 @@ struct MainTabView: View {
             .tag(TabImages.house)
             
             NavigationView {
-//                CalanderView()
+                CalendarView()
             }
             .tabItem {
                 Image(systemName: TabImages.statistics.rawValue)

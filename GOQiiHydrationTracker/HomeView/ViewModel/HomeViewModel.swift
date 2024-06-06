@@ -16,6 +16,7 @@ class HomeViewModel: ObservableObject {
     
     func fetchDailyHydration(for date: Date) {
         dailyHydration = coreDataManager.fetchDailyHydration(for: date)
+        checkTargetAchievement()
     }
     
     func createDailyHydrationIfNeeded(for date: Date) {
@@ -48,6 +49,7 @@ class HomeViewModel: ObservableObject {
               let dailyHydrationID = dailyHydration.id,
               let updatedDailyHydration = coreDataManager.addWaterLogEntry(in: dailyHydrationID, using: numberOfGlasses, timestamp: Date.now) else { return }
         self.dailyHydration = updatedDailyHydration
+        checkTargetAchievement()
     }
     
     func deleteWaterIntakeEntry(item : WaterLogEntry) {

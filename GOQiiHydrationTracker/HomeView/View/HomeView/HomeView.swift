@@ -73,6 +73,9 @@ struct HomeView: View {
             }) {
                 Image(systemName: "bell")
             })
+            .sheet(isPresented: $viewModel.isNotificationSettingsPresented) {
+                HyderationNotificationView()
+            }
         }
     }
 }
