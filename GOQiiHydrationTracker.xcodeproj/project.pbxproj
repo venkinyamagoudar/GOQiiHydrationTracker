@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */; };
+		24CD1CA92C11E6430083FE05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA82C11E6430083FE05 /* ContentView.swift */; };
+		24CD1CAB2C11E6450083FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD1CAA2C11E6450083FE05 /* Assets.xcassets */; };
+		24CD1CAE2C11E6450083FE05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD1CAD2C11E6450083FE05 /* Preview Assets.xcassets */; };
+		24CD1CB82C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CB72C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift */; };
+		24CD1CC22C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CC12C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift */; };
+		24CD1CC42C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CC32C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CD1CB42C11E6450083FE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CD1C9B2C11E6420083FE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CD1CA22C11E6430083FE05;
+			remoteInfo = GOQiiHydrationTracker;
+		};
+		24CD1CBE2C11E6450083FE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CD1C9B2C11E6420083FE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CD1CA22C11E6430083FE05;
+			remoteInfo = GOQiiHydrationTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24CD1CA32C11E6430083FE05 /* GOQiiHydrationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOQiiHydrationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerApp.swift; sourceTree = "<group>"; };
+		24CD1CA82C11E6430083FE05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24CD1CAA2C11E6450083FE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CD1CAD2C11E6450083FE05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24CD1CB32C11E6450083FE05 /* GOQiiHydrationTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOQiiHydrationTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CD1CB72C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerTests.swift; sourceTree = "<group>"; };
+		24CD1CBD2C11E6450083FE05 /* GOQiiHydrationTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOQiiHydrationTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CD1CC12C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerUITests.swift; sourceTree = "<group>"; };
+		24CD1CC32C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CD1CA02C11E6430083FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD1CB02C11E6450083FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD1CBA2C11E6450083FE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CD1C9A2C11E6420083FE05 = {
+			isa = PBXGroup;
+			children = (
+				24CD1CA52C11E6430083FE05 /* GOQiiHydrationTracker */,
+				24CD1CB62C11E6450083FE05 /* GOQiiHydrationTrackerTests */,
+				24CD1CC02C11E6450083FE05 /* GOQiiHydrationTrackerUITests */,
+				24CD1CA42C11E6430083FE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24CD1CA42C11E6430083FE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CA32C11E6430083FE05 /* GOQiiHydrationTracker.app */,
+				24CD1CB32C11E6450083FE05 /* GOQiiHydrationTrackerTests.xctest */,
+				24CD1CBD2C11E6450083FE05 /* GOQiiHydrationTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CD1CA52C11E6430083FE05 /* GOQiiHydrationTracker */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */,
+				24CD1CA82C11E6430083FE05 /* ContentView.swift */,
+				24CD1CAA2C11E6450083FE05 /* Assets.xcassets */,
+				24CD1CAC2C11E6450083FE05 /* Preview Content */,
+			);
+			path = GOQiiHydrationTracker;
+			sourceTree = "<group>";
+		};
+		24CD1CAC2C11E6450083FE05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CAD2C11E6450083FE05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24CD1CB62C11E6450083FE05 /* GOQiiHydrationTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CB72C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift */,
+			);
+			path = GOQiiHydrationTrackerTests;
+			sourceTree = "<group>";
+		};
+		24CD1CC02C11E6450083FE05 /* GOQiiHydrationTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CC12C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift */,
+				24CD1CC32C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift */,
+			);
+			path = GOQiiHydrationTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CD1CA22C11E6430083FE05 /* GOQiiHydrationTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CD1CC72C11E6450083FE05 /* Build configuration list for PBXNativeTarget "GOQiiHydrationTracker" */;
+			buildPhases = (
+				24CD1C9F2C11E6430083FE05 /* Sources */,
+				24CD1CA02C11E6430083FE05 /* Frameworks */,
+				24CD1CA12C11E6430083FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOQiiHydrationTracker;
+			productName = GOQiiHydrationTracker;
+			productReference = 24CD1CA32C11E6430083FE05 /* GOQiiHydrationTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24CD1CB22C11E6450083FE05 /* GOQiiHydrationTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CD1CCA2C11E6450083FE05 /* Build configuration list for PBXNativeTarget "GOQiiHydrationTrackerTests" */;
+			buildPhases = (
+				24CD1CAF2C11E6450083FE05 /* Sources */,
+				24CD1CB02C11E6450083FE05 /* Frameworks */,
+				24CD1CB12C11E6450083FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CD1CB52C11E6450083FE05 /* PBXTargetDependency */,
+			);
+			name = GOQiiHydrationTrackerTests;
+			productName = GOQiiHydrationTrackerTests;
+			productReference = 24CD1CB32C11E6450083FE05 /* GOQiiHydrationTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24CD1CBC2C11E6450083FE05 /* GOQiiHydrationTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CD1CCD2C11E6450083FE05 /* Build configuration list for PBXNativeTarget "GOQiiHydrationTrackerUITests" */;
+			buildPhases = (
+				24CD1CB92C11E6450083FE05 /* Sources */,
+				24CD1CBA2C11E6450083FE05 /* Frameworks */,
+				24CD1CBB2C11E6450083FE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CD1CBF2C11E6450083FE05 /* PBXTargetDependency */,
+			);
+			name = GOQiiHydrationTrackerUITests;
+			productName = GOQiiHydrationTrackerUITests;
+			productReference = 24CD1CBD2C11E6450083FE05 /* GOQiiHydrationTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CD1C9B2C11E6420083FE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					24CD1CA22C11E6430083FE05 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					24CD1CB22C11E6450083FE05 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 24CD1CA22C11E6430083FE05;
+					};
+					24CD1CBC2C11E6450083FE05 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 24CD1CA22C11E6430083FE05;
+					};
+				};
+			};
+			buildConfigurationList = 24CD1C9E2C11E6420083FE05 /* Build configuration list for PBXProject "GOQiiHydrationTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CD1C9A2C11E6420083FE05;
+			productRefGroup = 24CD1CA42C11E6430083FE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CD1CA22C11E6430083FE05 /* GOQiiHydrationTracker */,
+				24CD1CB22C11E6450083FE05 /* GOQiiHydrationTrackerTests */,
+				24CD1CBC2C11E6450083FE05 /* GOQiiHydrationTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CD1CA12C11E6430083FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD1CAE2C11E6450083FE05 /* Preview Assets.xcassets in Resources */,
+				24CD1CAB2C11E6450083FE05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD1CB12C11E6450083FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD1CBB2C11E6450083FE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CD1C9F2C11E6430083FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD1CA92C11E6430083FE05 /* ContentView.swift in Sources */,
+				24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD1CAF2C11E6450083FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD1CB82C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CD1CB92C11E6450083FE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD1CC42C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift in Sources */,
+				24CD1CC22C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CD1CB52C11E6450083FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CD1CA22C11E6430083FE05 /* GOQiiHydrationTracker */;
+			targetProxy = 24CD1CB42C11E6450083FE05 /* PBXContainerItemProxy */;
+		};
+		24CD1CBF2C11E6450083FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CD1CA22C11E6430083FE05 /* GOQiiHydrationTracker */;
+			targetProxy = 24CD1CBE2C11E6450083FE05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24CD1CC52C11E6450083FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24CD1CC62C11E6450083FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CD1CC82C11E6450083FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOQiiHydrationTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = DJ4HTA4RKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkateshNyamagoudar.GOQiiHydrationTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24CD1CC92C11E6450083FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOQiiHydrationTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = DJ4HTA4RKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkateshNyamagoudar.GOQiiHydrationTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24CD1CCB2C11E6450083FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ4HTA4RKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkateshNyamagoudar.GOQiiHydrationTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOQiiHydrationTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOQiiHydrationTracker";
+			};
+			name = Debug;
+		};
+		24CD1CCC2C11E6450083FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ4HTA4RKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkateshNyamagoudar.GOQiiHydrationTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOQiiHydrationTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOQiiHydrationTracker";
+			};
+			name = Release;
+		};
+		24CD1CCE2C11E6450083FE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ4HTA4RKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkateshNyamagoudar.GOQiiHydrationTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GOQiiHydrationTracker;
+			};
+			name = Debug;
+		};
+		24CD1CCF2C11E6450083FE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ4HTA4RKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkateshNyamagoudar.GOQiiHydrationTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GOQiiHydrationTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CD1C9E2C11E6420083FE05 /* Build configuration list for PBXProject "GOQiiHydrationTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD1CC52C11E6450083FE05 /* Debug */,
+				24CD1CC62C11E6450083FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CD1CC72C11E6450083FE05 /* Build configuration list for PBXNativeTarget "GOQiiHydrationTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD1CC82C11E6450083FE05 /* Debug */,
+				24CD1CC92C11E6450083FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CD1CCA2C11E6450083FE05 /* Build configuration list for PBXNativeTarget "GOQiiHydrationTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD1CCB2C11E6450083FE05 /* Debug */,
+				24CD1CCC2C11E6450083FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CD1CCD2C11E6450083FE05 /* Build configuration list for PBXNativeTarget "GOQiiHydrationTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CD1CCE2C11E6450083FE05 /* Debug */,
+				24CD1CCF2C11E6450083FE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CD1C9B2C11E6420083FE05 /* Project object */;
+}
