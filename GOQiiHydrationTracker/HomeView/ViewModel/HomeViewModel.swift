@@ -56,4 +56,22 @@ class HomeViewModel: ObservableObject {
               let updatedDailyHydration = coreDataManager.deleteWaterLogEntry(in: dailyHydrationID, item: item) else { return }
         self.dailyHydration = updatedDailyHydration
     }
+    
+    func checkTargetAchievement() {
+        guard let dailyHydration = dailyHydration else {
+            return
+        }
+        let target = dailyHydration.targetHydration
+        let current = dailyHydration.currentHydration
+        let today = Date()
+        let userDefaults = UserDefaults.standard
+        if let lastNotificationDate = userDefaults.object(forKey: "lastAchievementNotificationDate") as? Date,
+           Calendar.current.isDate(lastNotificationDate, inSameDayAs: today) {
+            return
+        }
+        if target > 0 && current >= target {
+            NotificationManager.shared.sendAchievementNotification()
+            userDefaults.set(today, forKey: "lastAchievementNotificationDate")
+        }
+    }
 }
