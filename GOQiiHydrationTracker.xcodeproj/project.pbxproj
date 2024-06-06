@@ -16,6 +16,8 @@
 		246954672C12332B004E72A4 /* AddLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246954662C12332B004E72A4 /* AddLottieView.swift */; };
 		2469546A2C123410004E72A4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 246954692C123410004E72A4 /* Lottie */; };
 		2469546D2C12345A004E72A4 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469546C2C12345A004E72A4 /* StatisticsViewModel.swift */; };
+		246954712C1237DA004E72A4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246954702C1237DA004E72A4 /* NotificationManager.swift */; };
+		246954752C123864004E72A4 /* HyderationNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246954742C123864004E72A4 /* HyderationNotificationView.swift */; };
 		24BC182A2C120235001D7688 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC18292C120235001D7688 /* CarouselView.swift */; };
 		24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */; };
 		24CD1CA92C11E6430083FE05 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA82C11E6430083FE05 /* MainTabView.swift */; };
@@ -61,6 +63,8 @@
 		246954642C123315004E72A4 /* BarChartActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartActivityView.swift; sourceTree = "<group>"; };
 		246954662C12332B004E72A4 /* AddLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLottieView.swift; sourceTree = "<group>"; };
 		2469546C2C12345A004E72A4 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		246954702C1237DA004E72A4 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		246954742C123864004E72A4 /* HyderationNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyderationNotificationView.swift; sourceTree = "<group>"; };
 		24BC18292C120235001D7688 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		24CD1CA32C11E6430083FE05 /* GOQiiHydrationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOQiiHydrationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerApp.swift; sourceTree = "<group>"; };
@@ -112,13 +116,8 @@
 		246954562C1231A4004E72A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				24CD1CD02C11EEB40083FE05 /* HomeView.swift */,
-				24BC18292C120235001D7688 /* CarouselView.swift */,
-				24CD1CD22C11EF480083FE05 /* HydrationCardView.swift */,
-				246954542C122E6B004E72A4 /* ProgressCircleView.swift */,
-				24CD1CD92C11F0A10083FE05 /* WaterIntakeRow.swift */,
-				24CD1CDF2C11F1CA0083FE05 /* EditTargetView.swift */,
-				24CD1CE12C11F1E40083FE05 /* AddWaterIntakeView.swift */,
+				246954722C12383C004E72A4 /* HomeView */,
+				246954732C123845004E72A4 /* NotificatioView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +165,28 @@
 				2469546C2C12345A004E72A4 /* StatisticsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		246954722C12383C004E72A4 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CD02C11EEB40083FE05 /* HomeView.swift */,
+				24BC18292C120235001D7688 /* CarouselView.swift */,
+				24CD1CD22C11EF480083FE05 /* HydrationCardView.swift */,
+				246954542C122E6B004E72A4 /* ProgressCircleView.swift */,
+				24CD1CD92C11F0A10083FE05 /* WaterIntakeRow.swift */,
+				24CD1CDF2C11F1CA0083FE05 /* EditTargetView.swift */,
+				24CD1CE12C11F1E40083FE05 /* AddWaterIntakeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		246954732C123845004E72A4 /* NotificatioView */ = {
+			isa = PBXGroup;
+			children = (
+				246954742C123864004E72A4 /* HyderationNotificationView.swift */,
+			);
+			path = NotificatioView;
 			sourceTree = "<group>";
 		};
 		24CD1C9A2C11E6420083FE05 = {
@@ -251,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				24CD1CE42C11F2F10083FE05 /* CoreDataManager.swift */,
+				246954702C1237DA004E72A4 /* NotificationManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -401,6 +423,7 @@
 				24CD1CA92C11E6430083FE05 /* MainTabView.swift in Sources */,
 				246954622C1232B7004E72A4 /* StatisticsCardView.swift in Sources */,
 				24CD1CE22C11F1E40083FE05 /* AddWaterIntakeView.swift in Sources */,
+				246954752C123864004E72A4 /* HyderationNotificationView.swift in Sources */,
 				24CD1CD52C11EF600083FE05 /* HomeViewModel.swift in Sources */,
 				24CD1CDE2C11F1AA0083FE05 /* CardType.swift in Sources */,
 				24CD1CE02C11F1CA0083FE05 /* EditTargetView.swift in Sources */,
@@ -408,6 +431,7 @@
 				24CD1CD82C11EF860083FE05 /* HydrationModel.xcdatamodeld in Sources */,
 				24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */,
 				246954552C122E6B004E72A4 /* ProgressCircleView.swift in Sources */,
+				246954712C1237DA004E72A4 /* NotificationManager.swift in Sources */,
 				24BC182A2C120235001D7688 /* CarouselView.swift in Sources */,
 				24CD1CE52C11F2F10083FE05 /* CoreDataManager.swift in Sources */,
 				2469546D2C12345A004E72A4 /* StatisticsViewModel.swift in Sources */,
