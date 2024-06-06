@@ -30,7 +30,7 @@ struct MainTabView: View {
             .tag(TabImages.calendar)
             
             NavigationView {
-//                StatisticsView(viewModel: StatisticsViewModel())
+                StatisticsView(viewModel: StatisticsViewModel())
             }
             .tabItem {
                 Image(systemName: TabImages.statistics.rawValue)
