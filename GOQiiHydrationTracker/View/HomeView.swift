@@ -12,24 +12,24 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             List {
-                Section(header: Text("Hydration Info")
-                    .font(.headline).fontWeight(.bold).foregroundStyle(Color.primary).backgroundStyle(Color(uiColor: .systemBackground)).textCase(.none)) {
-                        HStack {
-                            VStack {
-                                HydrationCardView(cardType: .hydrationTarget, viewModel: viewModel)
-                                HydrationCardView(cardType: .curretHydration, viewModel: viewModel)
-                            }
+                Section {
+                    HStack {
+                        VStack {
+                            Text("Hydration Info")
+                                .font(.headline).fontWeight(.bold).foregroundStyle(Color.primary).backgroundStyle(Color(uiColor: .systemBackground)).textCase(.none)
+                            CarouselView(viewModel: viewModel)
                         }
                     }
-                    .listRowInsets(EdgeInsets())
-                    .background(Color(uiColor: .systemBackground))
+                }
+                .listRowInsets(EdgeInsets())
+                .background(Color(uiColor: .secondarySystemBackground))
                 
                 Section(header: Text("Today's Water Log").font(.headline).fontWeight(.bold).foregroundStyle(Color.primary).textCase(.none)) {
-                    if let waterIntakeEntriesSet = viewModel.dailyHydration?.waterIntakeEntryList as? Set<WaterIntakeEntry> {
+                    if let waterIntakeEntriesSet = viewModel.dailyHydration?.waterLogEntryList as? Set<WaterLogEntry> {
                         let waterIntakeEntriesArray = Array(waterIntakeEntriesSet)
                             .sorted(by: { $0.enteredTime! > $1.enteredTime! })
                         ForEach(waterIntakeEntriesArray, id: \.id) { entry in
-                            WaterIntakeRow(quantity: Double(Int(entry.numberOfGlass)), timestamp: entry.enteredTime!)
+                            WaterIntakeRow(quantity: Double(Int(entry.quantity)), timestamp: entry.enteredTime!)
                                 .background(Color(uiColor: .secondarySystemGroupedBackground))
                         }
                         .onDelete { waterIntakeEntry in
@@ -58,25 +58,25 @@ struct HomeView: View {
                     .padding()
                 }
             }
+            .sheet(isPresented: $viewModel.isShowingAddView) {
+                AddWaterIntakeView(isPresented: $viewModel.isShowingAddView, viewModel: viewModel)
+                    .presentationDetents([.medium])
+                    .presentationBackgroundInteraction(.disabled)
+            }
+            .onAppear {
+                viewModel.createDailyHydrationIfNeeded(for: Date())
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("Hydration Tracker")
+            .navigationBarItems(trailing: Button(action: {
+                viewModel.isNotificationSettingsPresented.toggle()
+            }) {
+                Image(systemName: "bell")
+            })
         }
-        .sheet(isPresented: $viewModel.isShowingAddView) {
-            AddWaterIntakeView(isPresented: $viewModel.isShowingAddView, viewModel: viewModel)
-                .presentationDetents([.medium])
-                .presentationBackgroundInteraction(.disabled)
-        }
-        .onAppear {
-            viewModel.createDailyHydrationIfNeeded(for: Date())
-        }
-        .navigationBarTitleDisplayMode(.large)
-        .navigationTitle("Hydration Tracker")
-        .navigationBarItems(trailing: Button(action: {
-            viewModel.isNotificationSettingsPresented.toggle()
-        }) {
-            Image(systemName: "bell")
-        })
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(viewModel: HomeViewModel())
 }

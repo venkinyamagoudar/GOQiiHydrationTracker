@@ -22,7 +22,7 @@ struct WaterIntakeRow: View {
                 Text("Amount")
                     .font(.caption)
                     .foregroundColor(.secondary)
-                Text("\(amount) glasses")
+                Text("\(Int(quantity)) glasses")
                     .font(.headline)
             }
             Spacer()
@@ -51,5 +51,5 @@ struct WaterIntakeRow: View {
 }
 
 #Preview {
-    WaterIntakeRow(amount: 10, timestamp: Date.now)
+    WaterIntakeRow(quantity: 10.0, timestamp: Date.now)
 }

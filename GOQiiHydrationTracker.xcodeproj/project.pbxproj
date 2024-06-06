@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246954552C122E6B004E72A4 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246954542C122E6B004E72A4 /* ProgressCircleView.swift */; };
+		24BC182A2C120235001D7688 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC18292C120235001D7688 /* CarouselView.swift */; };
 		24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */; };
 		24CD1CA92C11E6430083FE05 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA82C11E6430083FE05 /* MainTabView.swift */; };
 		24CD1CAB2C11E6450083FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD1CAA2C11E6450083FE05 /* Assets.xcassets */; };
@@ -14,6 +16,15 @@
 		24CD1CB82C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CB72C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift */; };
 		24CD1CC22C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CC12C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift */; };
 		24CD1CC42C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CC32C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift */; };
+		24CD1CD12C11EEB40083FE05 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CD02C11EEB40083FE05 /* HomeView.swift */; };
+		24CD1CD32C11EF480083FE05 /* HydrationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CD22C11EF480083FE05 /* HydrationCardView.swift */; };
+		24CD1CD52C11EF600083FE05 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CD42C11EF600083FE05 /* HomeViewModel.swift */; };
+		24CD1CD82C11EF860083FE05 /* HydrationModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CD62C11EF860083FE05 /* HydrationModel.xcdatamodeld */; };
+		24CD1CDA2C11F0A10083FE05 /* WaterIntakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CD92C11F0A10083FE05 /* WaterIntakeRow.swift */; };
+		24CD1CDE2C11F1AA0083FE05 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CDD2C11F1AA0083FE05 /* CardType.swift */; };
+		24CD1CE02C11F1CA0083FE05 /* EditTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CDF2C11F1CA0083FE05 /* EditTargetView.swift */; };
+		24CD1CE22C11F1E40083FE05 /* AddWaterIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CE12C11F1E40083FE05 /* AddWaterIntakeView.swift */; };
+		24CD1CE52C11F2F10083FE05 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CE42C11F2F10083FE05 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		246954542C122E6B004E72A4 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		24BC18292C120235001D7688 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		24CD1CA32C11E6430083FE05 /* GOQiiHydrationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOQiiHydrationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerApp.swift; sourceTree = "<group>"; };
 		24CD1CA82C11E6430083FE05 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,15 @@
 		24CD1CBD2C11E6450083FE05 /* GOQiiHydrationTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOQiiHydrationTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CD1CC12C11E6450083FE05 /* GOQiiHydrationTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerUITests.swift; sourceTree = "<group>"; };
 		24CD1CC32C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24CD1CD02C11EEB40083FE05 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		24CD1CD22C11EF480083FE05 /* HydrationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationCardView.swift; sourceTree = "<group>"; };
+		24CD1CD42C11EF600083FE05 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		24CD1CD72C11EF860083FE05 /* HydrationModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HydrationModel.xcdatamodel; sourceTree = "<group>"; };
+		24CD1CD92C11F0A10083FE05 /* WaterIntakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeRow.swift; sourceTree = "<group>"; };
+		24CD1CDD2C11F1AA0083FE05 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		24CD1CDF2C11F1CA0083FE05 /* EditTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTargetView.swift; sourceTree = "<group>"; };
+		24CD1CE12C11F1E40083FE05 /* AddWaterIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaterIntakeView.swift; sourceTree = "<group>"; };
+		24CD1CE42C11F2F10083FE05 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,11 @@
 			children = (
 				24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */,
 				24CD1CA82C11E6430083FE05 /* MainTabView.swift */,
+				24CD1CD42C11EF600083FE05 /* HomeViewModel.swift */,
+				24CD1CDB2C11F1090083FE05 /* View */,
+				24CD1CE32C11F2DB0083FE05 /* Manager */,
+				24CD1CDC2C11F1A20083FE05 /* Model */,
+				24CD1CD62C11EF860083FE05 /* HydrationModel.xcdatamodeld */,
 				24CD1CAA2C11E6450083FE05 /* Assets.xcassets */,
 				24CD1CAC2C11E6450083FE05 /* Preview Content */,
 			);
@@ -125,6 +152,36 @@
 				24CD1CC32C11E6450083FE05 /* GOQiiHydrationTrackerUITestsLaunchTests.swift */,
 			);
 			path = GOQiiHydrationTrackerUITests;
+			sourceTree = "<group>";
+		};
+		24CD1CDB2C11F1090083FE05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CD02C11EEB40083FE05 /* HomeView.swift */,
+				24BC18292C120235001D7688 /* CarouselView.swift */,
+				24CD1CD22C11EF480083FE05 /* HydrationCardView.swift */,
+				246954542C122E6B004E72A4 /* ProgressCircleView.swift */,
+				24CD1CD92C11F0A10083FE05 /* WaterIntakeRow.swift */,
+				24CD1CDF2C11F1CA0083FE05 /* EditTargetView.swift */,
+				24CD1CE12C11F1E40083FE05 /* AddWaterIntakeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24CD1CDC2C11F1A20083FE05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CDD2C11F1AA0083FE05 /* CardType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24CD1CE32C11F2DB0083FE05 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				24CD1CE42C11F2F10083FE05 /* CoreDataManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CD1CDA2C11F0A10083FE05 /* WaterIntakeRow.swift in Sources */,
+				24CD1CD12C11EEB40083FE05 /* HomeView.swift in Sources */,
+				24CD1CD32C11EF480083FE05 /* HydrationCardView.swift in Sources */,
 				24CD1CA92C11E6430083FE05 /* MainTabView.swift in Sources */,
+				24CD1CE22C11F1E40083FE05 /* AddWaterIntakeView.swift in Sources */,
+				24CD1CD52C11EF600083FE05 /* HomeViewModel.swift in Sources */,
+				24CD1CDE2C11F1AA0083FE05 /* CardType.swift in Sources */,
+				24CD1CE02C11F1CA0083FE05 /* EditTargetView.swift in Sources */,
+				24CD1CD82C11EF860083FE05 /* HydrationModel.xcdatamodeld in Sources */,
 				24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */,
+				246954552C122E6B004E72A4 /* ProgressCircleView.swift in Sources */,
+				24BC182A2C120235001D7688 /* CarouselView.swift in Sources */,
+				24CD1CE52C11F2F10083FE05 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +656,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24CD1CD62C11EF860083FE05 /* HydrationModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24CD1CD72C11EF860083FE05 /* HydrationModel.xcdatamodel */,
+			);
+			currentVersion = 24CD1CD72C11EF860083FE05 /* HydrationModel.xcdatamodel */;
+			name = HydrationModel.xcdatamodeld;
+			path = /Users/venki/Desktop/India/Challenges/GOQiiHydrationTracker/GOQiiHydrationTracker/HydrationModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 24CD1C9B2C11E6420083FE05 /* Project object */;
 }
