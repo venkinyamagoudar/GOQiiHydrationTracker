@@ -38,6 +38,10 @@ struct MainTabView: View {
             }
             .tag(TabImages.statistics)
         }
+        .onAppear{
+            NotificationManager.shared.requestAuthorization()
+            NotificationManager.shared.scheduleDailyNotification()
+        }
     }
 }
 
