@@ -82,7 +82,6 @@ class NotificationManager {
 
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        // Show the notification as an alert and play the sound
         completionHandler([.badge, .sound,.banner,])
     }
 }
