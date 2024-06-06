@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */; };
-		24CD1CA92C11E6430083FE05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA82C11E6430083FE05 /* ContentView.swift */; };
+		24CD1CA92C11E6430083FE05 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA82C11E6430083FE05 /* MainTabView.swift */; };
 		24CD1CAB2C11E6450083FE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD1CAA2C11E6450083FE05 /* Assets.xcassets */; };
 		24CD1CAE2C11E6450083FE05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD1CAD2C11E6450083FE05 /* Preview Assets.xcassets */; };
 		24CD1CB82C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CB72C11E6450083FE05 /* GOQiiHydrationTrackerTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		24CD1CA32C11E6430083FE05 /* GOQiiHydrationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOQiiHydrationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerApp.swift; sourceTree = "<group>"; };
-		24CD1CA82C11E6430083FE05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24CD1CA82C11E6430083FE05 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		24CD1CAA2C11E6450083FE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CD1CAD2C11E6450083FE05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24CD1CB32C11E6450083FE05 /* GOQiiHydrationTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOQiiHydrationTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */,
-				24CD1CA82C11E6430083FE05 /* ContentView.swift */,
+				24CD1CA82C11E6430083FE05 /* MainTabView.swift */,
 				24CD1CAA2C11E6450083FE05 /* Assets.xcassets */,
 				24CD1CAC2C11E6450083FE05 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24CD1CA92C11E6430083FE05 /* ContentView.swift in Sources */,
+				24CD1CA92C11E6430083FE05 /* MainTabView.swift in Sources */,
 				24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
