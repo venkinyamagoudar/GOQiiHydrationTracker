@@ -22,6 +22,7 @@
 		2469547C2C1248A0004E72A4 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469547B2C1248A0004E72A4 /* CalendarView.swift */; };
 		2469547E2C1248CB004E72A4 /* CalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469547D2C1248CB004E72A4 /* CalendarDayView.swift */; };
 		246954802C125414004E72A4 /* CircleWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469547F2C125414004E72A4 /* CircleWaveView.swift */; };
+		246954822C125817004E72A4 /* LottieFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246954812C125817004E72A4 /* LottieFiles.swift */; };
 		24BC182A2C120235001D7688 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BC18292C120235001D7688 /* CarouselView.swift */; };
 		24CD1CA72C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */; };
 		24CD1CA92C11E6430083FE05 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD1CA82C11E6430083FE05 /* MainTabView.swift */; };
@@ -73,6 +74,7 @@
 		2469547B2C1248A0004E72A4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		2469547D2C1248CB004E72A4 /* CalendarDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayView.swift; sourceTree = "<group>"; };
 		2469547F2C125414004E72A4 /* CircleWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWaveView.swift; sourceTree = "<group>"; };
+		246954812C125817004E72A4 /* LottieFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFiles.swift; sourceTree = "<group>"; };
 		24BC18292C120235001D7688 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		24CD1CA32C11E6430083FE05 /* GOQiiHydrationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOQiiHydrationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CD1CA62C11E6430083FE05 /* GOQiiHydrationTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOQiiHydrationTrackerApp.swift; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				24CD1CDD2C11F1AA0083FE05 /* CardType.swift */,
+				246954812C125817004E72A4 /* LottieFiles.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				24BC182A2C120235001D7688 /* CarouselView.swift in Sources */,
 				24CD1CE52C11F2F10083FE05 /* CoreDataManager.swift in Sources */,
 				2469546D2C12345A004E72A4 /* StatisticsViewModel.swift in Sources */,
+				246954822C125817004E72A4 /* LottieFiles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
